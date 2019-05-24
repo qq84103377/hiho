@@ -1,0 +1,164 @@
+
+//扭货颜色
+@black: #29292A;
+@gradient-black-start: #444540;
+@gradient-black-end: #1B1B1B;
+@gold:#F3D198;
+@light-gold:#F7DCAE;
+@gradient-gold-start: #F6DFAD;
+@gradient-gold-end: #F4CD9E;
+@gray: #DADADA;
+@light-gray: #9898A1;
+@dark-gray: #797988;
+@blue-gray: #B8B8C5;
+@red: #F83149;
+@blue: #3C8EEF;
+@brown:#7D6B57;
+@gray-white-bg:#FAFAFA;
+@blue-gray-bg:#EDEDF3;
+@blue-white-bg:#F4F4FA;
+@border-color:#d9d9d9;
+@mine-color:#ECECEC;
+@white-bg:#fff;
+.nf-scroll-container {
+    .flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    .nf-scroll-view {
+        position: relative;
+        flex: 1; // overflow-y: auto;
+    }
+}
+
+// flex 布局
+.flex {
+    display: flex;
+}
+
+// 垂直居中
+.align-center {
+    .flex;
+    align-items: center;
+}
+
+// 水平居中
+.justify-center {
+    .flex;
+    justify-content: center;
+}
+
+// 水平垂直居中
+.center {
+    .flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// 俩边对齐
+.space-between {
+    .flex;
+    justify-content: space-between;
+}
+
+.border-bottom(@color: @border-color, @size: 1px) {
+    position: relative;
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        content: '';
+        background: @color;
+        height: @size;
+        z-index: 99;
+        transform-origin: left bottom;
+        transform: scaleY(.5);
+    }
+}
+
+.border-top(@color: @border-color, @size: 1px) {
+    position: relative;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        content: '';
+        background: @color;
+        height: @size;
+        z-index: 99;
+        transform-origin: left top;
+        transform: scaleY(.5);
+    }
+}
+
+.border-left(@color: @border-color) {
+    position: relative;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 1px;
+        height: 100%;
+        content: '';
+        z-index: 99;
+        background: @color;
+        transform-origin: left top;
+        transform: scaleX(.5);
+    }
+}
+
+.border-right(@color: @border-color, @size: 1px) {
+    position: relative;
+    &::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        width: @size;
+        height: 100%;
+        content: '';
+        z-index: 99;
+        background: @color;
+        transform-origin: right top;
+        transform: scaleX(.5);
+    }
+}
+.navigation{
+    height: 44px;
+    align-items: center;
+    z-index: 99;
+    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: @white-bg;
+    border-bottom:.5px solid @border-color;
+    .back{
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .text{
+      text-align: center;
+      font-size: 18px;
+      line-height: 44px;
+    }
+    .right{
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      // height: 45px;
+      // line-height: 45px;
+      // width: 40px;
+      // right:11px;
+      // top:0;
+    }
+  }

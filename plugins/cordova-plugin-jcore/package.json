@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-jcore@^1.2.0",
+        "scope": null,
+        "escapedName": "cordova-plugin-jcore",
+        "name": "cordova-plugin-jcore",
+        "rawSpec": "^1.2.0",
+        "spec": ">=1.2.0 <2.0.0",
+        "type": "range"
+      },
+      "/Users/glay/IdeaProjects/yyzx-mobile"
+    ]
+  ],
+  "_from": "cordova-plugin-jcore@>=1.2.0 <2.0.0",
+  "_id": "cordova-plugin-jcore@1.2.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-jcore",
+  "_nodeVersion": "8.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-jcore_1.2.1_1528696219832_0.1569446492306381"
+  },
+  "_npmUser": {
+    "name": "jpush",
+    "email": "support@jpush.cn"
+  },
+  "_npmVersion": "6.0.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-jcore@^1.2.0",
+    "scope": null,
+    "escapedName": "cordova-plugin-jcore",
+    "name": "cordova-plugin-jcore",
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-jcore/-/cordova-plugin-jcore-1.2.1.tgz",
+  "_shasum": "174ab3f28ef61d5677e58416ed38cd958e9460bc",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-jcore@^1.2.0",
+  "_where": "/Users/glay/IdeaProjects/yyzx-mobile",
+  "author": {
+    "name": "wilhantian, jiguang, josh_lipan"
+  },
+  "bugs": {
+    "url": "https://github.com/jpush/cordova-plugin-jcore/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-jcore",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "jcore for cordova plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-jlLcf7TsR69tMz4Gay7ZnScAl3iOlwfb/HqsJLNwltZIW+OR+5VifkplFXtML7AUsT48m4y6mI74tlLmkxNxwg==",
+    "shasum": "174ab3f28ef61d5677e58416ed38cd958e9460bc",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-jcore/-/cordova-plugin-jcore-1.2.1.tgz",
+    "fileCount": 15,
+    "unpackedSize": 13690520,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbHg2dCRA9TVsSAnZWagAACxoP/jyw8u/pWmzlHRNq1p93\nMPS6yMtcRqkFX4JB2bCzE0PK2Wm+4cIjEZ6OcfeFA2Pg9UgJjaN5IglWShiY\nAZvsaaUEhPNzi0MAkM/4XsOlazToOBQxSq/rTf3kM5WjA8c1TQcXkKCUI1uZ\nAWijTTq8pNc0jYRa5DNQ/y1WPpkSp6vD1sCNG7MjTypI5lEKQ/CkTL2nulSy\n1ylyPX+Qm9MlcS6IGdzsCVqp3M+m1TOitKN8FTTkwQOPEKNFOmq0307Am5Ht\n7WcShsAGFy7IY4uLjjhcWLZsOjWtc4b5rXeN/zibXpafyOffV1Xpn3bR9HAd\nUHhEqQoBgNjG2a9ghT0gFhdch2g+cgVodeG8ohSJix6GhRfP+oIey+ww7Yvw\n/JROhoZmNpKpO1gDLbNg/Qq/2tS9zfJUm9MJH4kx3FC0z2sUURAWLaKtRwek\nmhP1Z/h+l6v85GI506+OCKAQIMYqzo+Nmm+B4KrnRvaIrYZjhJ943edOdJpa\neP0aRs2w39a6Vtc+ByqekrfPbGT5Cwbz5XeglzMRN0dqIttTUlzSeMFAGi3z\nWhED4wJqs+RY+iDBi2sA7pZHgBsviCMqiSWDZp3LzgzV3OoEzrXjgnz8ope2\nu0XseMIqqwvebDtDZRka7IU/lQWvBaHLJ0MPDFgzd6KwjbW/uMjA8wrU/U2a\n/0OZ\r\n=cfW/\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "9907ede7469c15bf8dcfb4a9a5459d4ae11dd040",
+  "homepage": "https://github.com/jpush/cordova-plugin-jcore#readme",
+  "keywords": [
+    "jcore",
+    "jpush",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT License",
+  "maintainers": [
+    {
+      "name": "hev1n",
+      "email": "hev1n@qq.com"
+    },
+    {
+      "name": "jpush",
+      "email": "support@jpush.cn"
+    },
+    {
+      "name": "wilhantian",
+      "email": "wilhan.tian@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-jcore",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpush/cordova-plugin-jcore.git"
+  },
+  "version": "1.2.1"
+}

@@ -1,0 +1,8 @@
+{
+    "name": "hiho-mobile-test",
+    "ios_identifier": "com.myjuniu.hiho.test",
+    "android_identifier": "com.myjuniu.hiho.test",
+    "update": "start",
+    "content_url": "https://factory.myjuniu.com/hiho-mobile/"
+
+}

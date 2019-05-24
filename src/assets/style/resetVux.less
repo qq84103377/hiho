@@ -1,0 +1,206 @@
+@import "./vars.less";
+
+.weui-dialog__btn_primary {
+    // background: linear-gradient(117deg, rgb(255, 156, 56), rgb(247, 136, 72));
+    color: rgb(247, 136, 72);
+    // color: #fff;
+}
+
+.weui-dialog__btn_default {
+    background-color: rgb(246, 246, 246);
+    color: rgb(44, 44, 44);
+}
+
+//重置按钮
+
+.weui-btn,.weui-btn:after{
+    border-radius: 0 !important;
+}
+.weui-btn_mini{
+    line-height: 2.4 !important;
+}
+.weui-btn+.weui-btn{
+    margin-top: 0!important;
+}
+
+.weui-btn_plain-default{
+    color: @black !important;
+    background: #fff !important;
+    border:0.5px solid @light-gray !important;
+}
+.weui-btn_plain-disabled{
+    color: @blue-gray !important;
+    background: #fff !important;
+    opacity: .5;
+}
+.weui-btn_default{
+    background-color: #fff !important;
+    border: 0.5px solid @border-color !important;
+}
+.weui-btn_primary{
+    background: @black !important;
+    color: @gold !important;
+    border: 0.5px solid rgba(0,0,0,.2) !important;
+}
+.weui-btn_disabled.weui-btn_primary{
+    background: @black !important;
+    opacity: .5;
+}
+
+
+.weui-btn_plain-warn{
+    color: @red !important;
+    border:0.5px solid @red !important;
+
+}
+
+.weui-btn_mini.tag-btn{
+    line-height: 1.8 !important;
+    color: @light-gray !important;
+    background: @blue-gray-bg !important;
+    border: none !important;
+    &:after{
+        border: none !important;
+    }
+    &.active{
+        color: #fff !important;
+        background: @dark-gray !important;
+    }
+    &.weui-btn_disabled{
+        color: @light-gray !important;
+        background: @blue-gray-bg !important;
+        opacity: .5;
+    }
+}
+//重写tab
+.vux-tab-wrap,
+.vux-tab-container,
+.vux-tab{
+    height: 36px !important;
+    line-height: 36px !important;
+}
+.vux-slider{
+    padding-top: 36px !important;
+}
+.vux-tab-item{
+    line-height: 36px !important;
+
+}
+.vux-tab-ink-bar{
+    margin-bottom: 3px;
+}
+.vux-tab .vux-tab-item {
+    color: @dark-gray !important;
+    &.vux-tab-selected{
+        color: @black !important;
+    }
+}
+
+.vux-tab-bar-inner {
+    //width:42px !important;
+    margin-top: 2px !important;
+    background: @black !important;
+}
+
+.weui-cells{
+    font-size: 16px !important;
+}
+
+//重新popover样式
+.vux-popover{
+    font-size: 12px !important;
+    padding: 10px;
+    color: @light-gray !important;
+    background-color: @gray-white-bg !important;
+    //box-shadow:0 0 3px rgba(0,0,0,.2) !important;
+}
+.vux-popover-arrow-up{
+    border-bottom-color:@gray-white-bg !important;
+
+}
+
+// 重写cell
+.vux-popup-picker-value,.weui-cell_access .weui-cell__ft,.weui-input,.vux-popup-picker-placeholder{
+    font-size:14px !important;
+  }
+.vux-label{font-size:16px !important;}
+
+// 重写group
+.vux-no-group-title{
+    margin-top:8px !important;
+}
+
+//重置吐司before的content
+.weui-icon_toast.weui-icon-success-no-circle:before{
+    content: "\EA08" !important;
+}
+
+.weui-toast_forbidden .weui-icon_toast.weui-icon-success-no-circle:before {
+    content: "\EA0B" !important;
+}
+//重置图片预览before的content
+.pswp__button--arrow--left:before,
+.pswp__button--arrow--right:before{
+    content: '' !important;
+}
+
+//重置下拉刷新插件样式
+ ._v-container>._v-content>.loading-layer>.no-data-text{
+     font-size: 14px!important;
+     -webkit-font-smoothing: antialiased;
+ }
+//重置复选框
+.vux-check-icon>.weui-icon-success-circle:before,
+.vux-check-icon>.weui-icon-success:before{
+    color: @black !important;
+}
+.vux-check-icon>.weui-icon-success{
+    background-color: red !important;
+}
+// 重置confirm
+.purchase-price-mag{
+  .input{
+    height: 48px;
+    width:100%;
+  }
+  .vux-no-group-title{
+    margin-top:0 !important;
+  }
+  .weui-cells:before,.weui-cells:after{
+    border:none !important;
+  }
+  .weui-cell{
+    background-color: @gray-white-bg;
+    // color:@blue-gray;
+  }
+  .weui-dialog__ft{
+    padding:0 16px 26px;
+  }
+  .weui-dialog__ft:after{
+    border:none !important;
+  }
+  .weui-dialog__btn{
+    width: 120px !important;
+    height: 42px !important;
+    line-height: 42px !important;
+    font-size:14px;
+  }
+  .weui-dialog__btn_default{
+    border:1px solid @light-gray;
+    background-color: #fff;
+  }
+  .weui-dialog__btn_primary{
+    background-color: @gradient-black-end;
+    color:@gold;
+    margin-left:8px !important;
+  }
+  .weui-dialog__bd:first-child{
+    padding-top:26px;
+    >div{
+      margin-bottom:20px;
+      .title-icon{
+        right:0;
+      }
+    }
+  }
+}

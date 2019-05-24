@@ -1,0 +1,73 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-hot-code-push-plugin": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-alipay-v2": {
+      "APP_ID": "2018052160182102",
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-crosswalk-webview": {
+      "XWALK_VERSION": "23+",
+      "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+      "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+      "XWALK_MODE": "embedded",
+      "XWALK_MULTIPLEAPK": "true",
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-keyboard": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wxbd3a38a935931067",
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "jpush-phonegap-plugin": {
+      "APP_KEY": "f2adde27b2bf67d3f67dd515",
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "cordova-plugin-jcore": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.myjuniu.hiho.production"
+    }
+  }
+}

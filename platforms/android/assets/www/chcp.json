@@ -1,0 +1,8 @@
+{
+  "name": "hiho-mobile-test",
+  "ios_identifier": "com.myjuniu.hiho.test",
+  "android_identifier": "com.myjuniu.hiho.test",
+  "update": "start",
+  "content_url": "http://factory-alpha.juniusoft.com/hiho-mobile/",
+  "release": "2018.09.07-10.48.02"
+}
